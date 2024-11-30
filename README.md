@@ -1,2 +1,1 @@
-# nov16autok2
-hazi
+# nov16_autok

@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    color: rgb(14, 70, 39);
+    padding: .5rem;
+}
+
+nav{
+    background-color: rgb(14, 70, 39);
+    padding-block: 1rem;
+    padding-left: 2rem;
+}
+
+nav a{
+    padding-inline: .5rem;
+    
+    text-decoration: none;
+    color: rgba(156, 187, 156, 0.856);
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    padding-left: 1rem;
+    gap: .5rem;
+}
+
+main p{
+    line-height: 1.3rem;
+    font-size: large;
+    color: rgb(73, 72, 72);
+}
+
+
+
+main h3{
+    color: rgb(14, 70, 39);
+    padding: .5rem;
+    border: 1px solid rgb(201, 195, 195);
+    font-weight: 300;
+}
+
+
+
+main img{
+    width: 100%;
+    object-fit: cover;
+
+}
+
+.borderpic{
+    padding: 1rem;
+    border: 1px solid rgb(201, 195, 195);
+}
+
+.borderpic img{
+    padding: .4rem;
+    display: block;
+    border: 1px solid rgb(201, 195, 195);
+}
+
+
+
+footer{
+    color: rgb(14, 70, 39);
+    text-align: center;
+}
+

@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header h1{
+    color: rgb(14, 70, 39);
+    padding: .5rem;
+}
+
+nav{
+    background-color: rgb(14, 70, 39);
+    padding-block: 1rem;
+    padding-inline: 2rem;
+}
+
+nav a{
+    padding-inline: .5rem;
+    
+    text-decoration: none;
+    color: rgba(156, 187, 156, 0.856);
+    
+}
+
+main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+main img{
+    object-fit: cover;
+    width: 100%;
+
+    border: 1px solid rgb(201, 195, 195);
+}
+
+aside{
+    padding-left: 1rem;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    line-height: 3rem;
+    max-height: 2rem;
+    font-size: 20px;
+}
+
+.row1{
+    display: grid;
+   grid-template-columns: 1fr 2fr 2fr;
+    font-weight: 800;
+    border-bottom: 2px solid black;
+    padding-left: 1rem;
+}
+.row2{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    background-color: rgba(226, 214, 214, 0.418);
+    padding-left: 1rem;
+}
+.row3{
+    display: grid;
+    grid-template-columns: 1fr 2fr 2fr;
+    padding-left: 1rem;
+}
+
+
+
+
+
+
+
+.autox4{
+    padding: 1rem;
+
+}
+footer{
+    color: rgb(14, 70, 39);
+    text-align: center;
+}
+
